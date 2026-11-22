@@ -115,6 +115,298 @@ footer{border-top:1px solid var(--line);padding:40px 0;text-align:center;color:v
 </head>
 <body>
 <nav><div class="wrap"><b>⚔ Rising Tales</b>
+<ul><li><a href="#jogos" data-i="nav4">Jogos</a></li><li><a href="#sobre" data-i="nav1">Sobre</a></li><li><a href="#lore">Lore</a></li></ul>
+<div class="right"><div class="lang" role="group" aria-label="Idioma / Language"><button type="button" data-l="pt" class="on">PT</button><button type="button" data-l="en">EN</button></div>
+<a class="cta" href="#cafe" style="padding:8px 16px;font-size:.9rem" data-i="navcta">☕ Me compre um café</a></div></div></nav>
+
+
+<section id="cafe" class="hero"><div class="wrap support">
+<div>
+<span class="tag" style="margin-bottom:14px" data-i="tag">Indie · Feito no Brasil 🇧🇷</span>
+<p class="kicker" data-i="k">Rising Tales · Love and Legacy Adventures</p>
+<h1 class="ttl" data-i="h">Me compre um café <em>&lt;3</em></h1>
+<p class="lead" data-i="sl1">Rising Tales é feito por uma pessoa só, no Brasil, nas horas livres. Cada café vira horas de código, arte e música para os jogos. Se você curte acompanhar, qualquer valor ajuda a manter as ferramentas e o tempo de desenvolvimento.</p>
+<p class="lead" style="margin-bottom:0" data-i="sl2">Arraste o controle para encher as xícaras, escolha o valor, deixe uma mensagem de apoio e pague com Pix pelo app do seu banco. 💛</p>
+<div class="perks">
+<div><b>9</b><small data-i="p1">jogos publicados</small></div>
+<div><b>🌐</b><small data-i="p2">jogue no navegador</small></div>
+<div><b>10+</b><small data-i="p3">tipos de arma</small></div>
+<div><b>1</b><small data-i="p4">dev, muito café</small></div>
+<div><b>100%</b><small data-i="p5">do apoio vai pro jogo</small></div>
+<div><b>∞</b><small data-i="p6">gratidão</small></div>
+</div>
+<div class="links"><a class="cta ghost" href="https://patreon.com/JulianRisingTale" target="_blank" rel="noopener">❤️ Patreon</a><a class="cta ghost" href="https://www.youtube.com/@RisingTalesTheGame" target="_blank" rel="noopener">▶ YouTube</a><a class="cta ghost" href="#jogos" data-i="know">🎮 Meus jogos ↓</a></div>
+</div>
+
+<div class="box" id="box">
+<h3 data-i="bt">Apoie com quanto quiser</h3>
+<p class="hint" data-i="bh">A partir de R$ 5,00. Todo apoio vai para o desenvolvimento do Rising Tales.</p>
+<div class="cups" id="cups"></div>
+<div class="amount" id="amt">R$ 25,00</div>
+<div class="caption" id="cap"></div>
+<input type="range" id="rng" min="5" max="150" step="5" value="25" aria-label="Valor do apoio">
+<label for="custom" data-i="lc">Ou digite outro valor <span>(R$)</span></label>
+<div class="row2"><span class="pre">R$</span><input class="field" id="custom" type="text" inputmode="decimal" autocomplete="off" placeholder="25,00"></div>
+<label for="msg"><span data-i="lm">Mensagem de apoio</span> <span data-i="opt">(opcional)</span></label>
+<textarea class="field" id="msg" maxlength="37" data-ph="ph" placeholder="Bora Julian! Amo o jogo"></textarea>
+<div class="count"><span id="cnt">0</span>/37 · <span data-i="cn">vai junto no Pix</span></div>
+<button class="cta go" id="go" type="button">APOIAR COM R$ 25,00</button>
+<p class="fine" data-i="fine">Pix pelo app do seu banco. O valor e a mensagem já vão preenchidos no QR Code.</p>
+<div class="pay" id="pay">
+<p class="thanks" data-i="ty">Valeu demais! Escaneie ou copie o código abaixo:</p>
+<div class="qr" id="qr"></div>
+<textarea class="code" id="pix" readonly aria-label="Pix Copia e Cola"></textarea>
+<button class="cta" id="copy" type="button" data-i="cp">📋 Copiar Pix Copia e Cola</button>
+<p class="ok" id="ok" data-i="ok">✅ Código copiado! Cole no app do seu banco.</p>
+</div>
+</div>
+</div></section>
+
+<section id="jogos"><div class="wrap">
+<h2 data-i="j">🕹️ Meus jogos</h2>
+<p class="lead" data-i="jl">Todos jogáveis no navegador pelo itch.io. Cada jogo é um passo rumo ao grande sonho.</p>
+<div class="grid games">
+<div class="card feat pri"><div class="row"><h3>Rising Tales</h3></div><span class="g" data-i="g1">RPG com uma aventura de amor · projeto principal</span><a class="play" href="https://risingtale.itch.io/" target="_blank" rel="noopener" data-i="pl">▶ Jogar</a></div>
+<div class="card bel"><div class="row"><h3>Ashveil Tale</h3><span class="price">$6.99</span></div><span class="g">RPG</span><a class="play" href="https://risingtale.itch.io/" target="_blank" rel="noopener" data-i="pl">▶ Jogar</a></div>
+<div class="card arc"><div class="row"><h3>Cinzas de Valdoria</h3><span class="price">$5</span></div><span class="g" data-i="g3">RPG isométrico · plataforma</span><a class="play" href="https://risingtale.itch.io/" target="_blank" rel="noopener" data-i="pl">▶ Jogar</a></div>
+<div class="card pri"><div class="row"><h3>Cronistas do Abismo</h3><span class="price">$3</span></div><span class="g" data-i="g4">Estratégia</span><a class="play" href="https://risingtale.itch.io/" target="_blank" rel="noopener" data-i="pl">▶ Jogar</a></div>
+<div class="card arc"><div class="row"><h3>Lâmina Rubra</h3><span class="price">$2</span></div><span class="g" data-i="g5">RPG em primeira pessoa</span><a class="play" href="https://risingtale.itch.io/" target="_blank" rel="noopener" data-i="pl">▶ Jogar</a></div>
+<div class="card bel"><div class="row"><h3>VoxelHeim</h3><span class="price" data-i="free">Grátis</span></div><span class="g">RPG voxel</span><a class="play" href="https://risingtale.itch.io/" target="_blank" rel="noopener" data-i="pl">▶ Jogar</a></div>
+<div class="card pri"><div class="row"><h3>Voxel Hollow</h3><span class="price" data-i="free">Grátis</span></div><span class="g">Tower defense</span><a class="play" href="https://risingtale.itch.io/" target="_blank" rel="noopener" data-i="pl">▶ Jogar</a></div>
+<div class="card arc"><div class="row"><h3>Voxel: BeyBlade</h3><span class="price" data-i="free">Grátis</span></div><span class="g" data-i="g8">Arena de piões</span><a class="play" href="https://risingtale.itch.io/" target="_blank" rel="noopener" data-i="pl">▶ Jogar</a></div>
+<div class="card bel"><div class="row"><h3>Príncipe de Pequenos Mundos</h3><span class="price" data-i="free">Grátis</span></div><span class="g" data-i="g9">Aventura</span><a class="play" href="https://risingtale.itch.io/" target="_blank" rel="noopener" data-i="pl">▶ Jogar</a></div>
+</div>
+</div></section>
+
+<section id="sobre"><div class="wrap">
+<h2 data-i="s1">🎮 Quem está por trás</h2>
+<p class="lead" data-i="s1a">Olá! Sou o <b>Julian</b>, desenvolvedor independente do Brasil (Modo Hard da vida 😅). Cresci marcado por jogos como <b>RF Online</b>, <b>Priston Tale</b> e <b>Cabal Online</b> — e carrego o sonho de criar meu próprio jogo online. Muitas vezes precisei me afastar dele para trabalhar, mas nunca o esqueci.</p>
+<p class="lead" data-i="s1b">Hoje trago todo meu amor e paixão para este projeto, unindo dedicação, muito aprendizado, o avanço da tecnologia e o apoio de pessoas como você. Acredito que, com coração e tecnologia, sonhos podem quebrar paradigmas.</p>
+<div class="grid">
+<div class="card pri"><h3 data-i="v1">🎯 Visão</h3><p class="sub" data-i="v1s">Experiências que emocionam</p><p data-i="v1t">Quero que cada jogador sinta que sua jornada é única — um jogo vai além da diversão: é uma história que fica na memória.</p></div>
+<div class="card bel"><h3 data-i="v2">♿ Acessibilidade</h3><p class="sub" data-i="v2s">Para todos jogarem</p><p data-i="v2t">Muita acessibilidade, sem perder a beleza da arte. Jogue direto no navegador.</p></div>
+<div class="card arc"><h3 data-i="v3">🤝 Comunidade</h3><p class="sub" data-i="v3s">Vamos crescer juntos</p><p data-i="v3t">Sempre aberto a ideias, feedback e trocas com outros criadores nessa jornada indie. 🚀</p></div>
+</div>
+</div></section>
+
+<section id="lore"><div class="wrap">
+<h2>🌌 Lore</h2>
+<p class="lead" data-i="lore">Em um mundo de fantasia, três raças separadas da <b>Fonte Primordial</b> por desordens planetárias se reencontram, após milhares de anos, em uma disputa implacável por território — em um planeta já habitado pela terceira Raça Primordial. Cada uma seguirá seu destino: formar alianças ou defender sua própria identidade.</p>
+</div></section>
+
+<footer><div class="wrap">
+<div class="links" style="justify-content:center;margin:0 0 18px">
+<a href="https://patreon.com/JulianRisingTale" target="_blank" rel="noopener">Patreon</a> · <a href="https://risingtale.itch.io/" target="_blank" rel="noopener">itch.io</a> · <a href="https://www.youtube.com/@RisingTalesTheGame" target="_blank" rel="noopener">YouTube</a> · <a href="https://www.tiktok.com/@julian.risingtales" target="_blank" rel="noopener">TikTok</a></div>
+<p>© <span id="y"></span> Rising Tales · <span data-i="ft">Feito com ❤️ e muito café no Brasil</span></p>
+</div></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js" integrity="sha384-8FWZA6BGMXhsfO+BLtrJK0We6gg5o1JyO8xQm6peWDEUs17ACA5ziE/NIAkl9z2k" crossorigin="anonymous"></script>
+<script>
+(function(){
+/* ---------- Pix ---------- */
+var KEY="1673d094-ff3e-4a42-a622-dad924bb5157",NAME="JULIAN G DE OLIVEIRA",CITY="PINHAIS";
+function f(id,v){return id+String(v.length).padStart(2,"0")+v}
+function crc(s){var c=0xFFFF;for(var i=0;i<s.length;i++){c^=s.charCodeAt(i)<<8;for(var j=0;j<8;j++){c=(c&0x8000)?((c<<1)^0x1021):(c<<1);c&=0xFFFF}}return c.toString(16).toUpperCase().padStart(4,"0")}
+function clean(t){return (t||"").normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^A-Za-z0-9 .,!?@#&+\-]/g,"").replace(/\s+/g," ").trim().slice(0,37)}
+function pix(v,m){var acc=f("00","br.gov.bcb.pix")+f("01",KEY);m=clean(m);if(m)acc+=f("02",m);
+var p=f("00","01")+f("01","11")+f("26",acc)+f("52","0000")+f("53","986");if(v>0)p+=f("54",v.toFixed(2));
+p+=f("58","BR")+f("59",NAME)+f("60",CITY)+f("62",f("05","***"))+"6304";return p+crc(p)}
+function qrSvg(t){var q=qrcode(0,"M");q.addData(t);q.make();var n=q.getModuleCount(),b=2,s=n+b*2,d="";
+for(var y=0;y<n;y++){var x=0;while(x<n){if(q.isDark(y,x)){var a=x;while(x<n&&q.isDark(y,x))x++;d+="M"+(a+b)+" "+(y+b)+"h"+(x-a)+"v1H"+(a+b)+"z"}else x++}}
+return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 '+s+' '+s+'" shape-rendering="crispEdges" role="img" aria-label="QR Code Pix"><rect width="'+s+'" height="'+s+'" fill="#fff"/><path d="'+d+'"/></svg>'}
+
+/* ---------- i18n ---------- */
+var EN={nav1:"About",nav3:"Races",nav4:"Games",navcta:"☕ Buy me a coffee",tag:"Indie · Made in Brazil 🇧🇷",
+hero:"An online narrative RPG blending ancient magic, raw strength and futuristic technology — a journey about love, choices and legacy.",
+herocta:"☕ Buy me a coffee &lt;3",play:"🎮 Play on itch.io",k:"Rising Tales · Love and Legacy Adventures",know:"🎮 My games ↓",h:"Buy me a coffee <em>&lt;3</em>",
+sl1:"Rising Tales is made by one person, in Brazil, in his spare time. Every coffee turns into hours of code, art and music for the games. If you enjoy following along, any amount helps keep the tools and the development time going.",
+sl2:"Drag the slider to fill the cups, pick an amount, leave a message of support and pay with Pix in your banking app. 💛",
+p1:"published games",p2:"play in your browser",p3:"weapon types",p4:"dev, lots of coffee",p5:"of support goes to the game",p6:"gratitude",
+bt:"Support with any amount",bh:"From R$ 5.00. Every bit of support goes to the development of Rising Tales.",
+lc:"Or type another amount <span>(R$)</span>",lm:"Message of support",opt:"(optional)",cn:"sent along with the Pix",ph:"Go Julian! Love the game",
+fine:"Pix via your banking app (Brazil). Amount and message are already filled in the QR Code.",ty:"Thank you so much! Scan or copy the code below:",
+cp:"📋 Copy Pix code",ok:"✅ Code copied! Paste it in your banking app.",
+s1:"🎮 Who's behind it",s1a:"Hi! I'm <b>Julian</b>, an independent developer from Brazil (life on Hard Mode 😅). I grew up with games like <b>RF Online</b>, <b>Priston Tale</b> and <b>Cabal Online</b> — and I carry the dream of creating my own online game. Many times I had to step away from it to work, but I never forgot it.",
+s1b:"Today I pour all my love and passion into this project, combining dedication, lots of learning, the progress of technology and the support of people like you. I believe that with heart and technology, dreams can break paradigms.",
+v1:"🎯 Vision",v1s:"Experiences that move you",v1t:"I want every player to feel their journey is unique — a game goes beyond fun: it's a story that stays in your memory.",
+v2:"♿ Accessibility",v2s:"For everyone to play",v2t:"Lots of accessibility without losing the beauty of the art. Play right in your browser.",
+v3:"🤝 Community",v3s:"Let's grow together",v3t:"Always open to ideas, feedback and exchanges with other creators on this indie journey. 🚀",
+lore:"In a fantasy world, three races separated from the <b>Primordial Source</b> by planetary chaos meet again, after thousands of years, in a relentless fight for territory — on a planet already inhabited by the third Primordial Race. Each will follow its destiny: forging alliances or defending its own identity.",
+r:"👑 Races",rl:"Three paths of power: technology, strength and magic.",
+ra:"<li>⚙️ Advanced technology</li><li>🚀 Galactic travelers</li><li>🤖 Robotic appearance</li>",
+rb:"<li>💪 Brute force · low technology</li><li>🧍 Compact human appearance</li><li>🛡️ Leather, mail, medium armor</li><li>🔥 Special form: Runic Giant Demonic Berserker / Long Range Form</li>",
+rp:"<li>✨ Original race · pure magic power</li><li>👽 Alien/elven appearance</li><li>🧥 Robes, tunics, light semi-armor</li>",
+mc:"⚔️ MultiClass — any race, any weapon",w1:"Primordial Summons",w2:"Transformations",vs:"The main enemy race",
+vl:"<li>They feed on vital energy</li><li>They wield all three forces: Technology + Dark Force Magic + Pure Energy</li><li>Slime, spikes, high tech and ultra starships</li>",
+j:"🕹️ My games",jl:"All playable in the browser on itch.io. Every game is a step toward the big dream.",
+g1:"RPG with a love adventure · main project",g3:"Isometric RPG · platformer",g4:"Strategy",g5:"First-person RPG",g8:"Spinning-top arena",g9:"Adventure",
+pl:"▶ Play",free:"Free",ft:"Made with ❤️ and lots of coffee in Brazil"};
+var CAP={pt:["Um cafezinho","Um café com pão de queijo","Um cappuccino caprichado","Uma garrafa térmica inteira","Café pra semana toda","Café pro mês inteiro!"],
+en:["A little espresso","A coffee and a snack","A fancy cappuccino","A whole thermos","Coffee for the whole week","Coffee for the whole month!"]};
+var BTN={pt:"Apoiar com ",en:"Support with "};
+var lang="pt",PT={};
+document.querySelectorAll("[data-i]").forEach(function(e){PT[e.dataset.i]=e.innerHTML});
+var phPT=document.getElementById("msg").placeholder;
+
+/* ---------- cups ---------- */
+var CUPS=6,PER=25,cupsEl=document.getElementById("cups");
+var cupSvg='<svg viewBox="0 0 48 48"><g class="steam" stroke="#e0a85a" stroke-width="2" fill="none" stroke-linecap="round"><path d="M16 9c-2-3 2-4 0-7"/><path d="M23 9c-2-3 2-4 0-7"/><path d="M30 9c-2-3 2-4 0-7"/></g><defs><clipPath id="c%i"><path d="M9 14h30v15a11 11 0 0 1-11 11h-8A11 11 0 0 1 9 29z"/></clipPath></defs><rect class="liq" clip-path="url(#c%i)" x="9" y="40" width="30" height="0" fill="url(#g)"/><path d="M9 14h30v15a11 11 0 0 1-11 11h-8A11 11 0 0 1 9 29z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M39 18h3a5 5 0 0 1 0 10h-3.5" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M6 44h36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>';
+var grad='<svg width="0" height="0" style="position:absolute"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c47a3d"/><stop offset="1" stop-color="#6b3a17"/></linearGradient></defs></svg>';
+cupsEl.insertAdjacentHTML("beforebegin",grad);
+for(var i=0;i<CUPS;i++){var c=document.createElement("div");c.className="cup";c.style.color="#5b5d75";c.innerHTML=cupSvg.replace(/%i/g,i);c.dataset.v=(i+1)*PER;c.title="R$ "+(i+1)*PER;cupsEl.appendChild(c)}
+
+var rng=document.getElementById("rng"),custom=document.getElementById("custom"),msg=document.getElementById("msg"),
+amt=document.getElementById("amt"),cap=document.getElementById("cap"),go=document.getElementById("go"),pay=document.getElementById("pay"),value=25;
+function money(v){return lang==="pt"?"R$ "+v.toFixed(2).replace(".",",").replace(/\B(?=(\d{3})+(?!\d))/g,"."):"R$ "+v.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2})}
+function render(){
+  var cups=cupsEl.children;
+  for(var i=0;i<CUPS;i++){var fill=Math.max(0,Math.min(1,(value-i*PER)/PER)),r=cups[i].querySelector(".liq"),h=26*fill;
+    r.setAttribute("height",h);r.setAttribute("y",40-h);cups[i].style.color=fill>0?"#e0a85a":"#5b5d75";cups[i].classList.toggle("full",fill>=1)}
+  amt.textContent=money(value);
+  var idx=Math.min(CUPS-1,Math.max(0,Math.ceil(value/PER)-1));if(value<10)idx=0;
+  cap.textContent=CAP[lang][idx];
+  go.textContent=(BTN[lang]+money(value)).toUpperCase();
+  var p=(Math.min(150,Math.max(5,value))-5)/145*100;rng.style.setProperty("--p",p+"%");
+  if(pay.classList.contains("show"))build();
+}
+function build(){var code=pix(value,msg.value);document.getElementById("qr").innerHTML=qrSvg(code);document.getElementById("pix").value=code;document.getElementById("ok").style.display="none"}
+rng.addEventListener("input",function(){value=+rng.value;custom.value="";render()});
+custom.addEventListener("input",function(){var v=parseFloat(String(custom.value).replace(/[^0-9,.]/g,"").replace(/\.(?=\d{3}(\D|$))/g,"").replace(",","."));if(v>=1&&v<=100000){value=Math.round(v*100)/100;rng.value=Math.min(150,Math.max(5,Math.round(value/5)*5));render()}});
+cupsEl.addEventListener("click",function(e){var c=e.target.closest(".cup");if(!c)return;value=+c.dataset.v;rng.value=value;custom.value="";render()});
+msg.addEventListener("input",function(){document.getElementById("cnt").textContent=clean(msg.value).length;if(pay.classList.contains("show"))build()});
+go.addEventListener("click",function(){build();pay.classList.add("show");pay.scrollIntoView({behavior:"smooth",block:"nearest"})});
+document.getElementById("copy").addEventListener("click",async function(){var t=document.getElementById("pix");try{await navigator.clipboard.writeText(t.value)}catch(e){t.select();document.execCommand("copy")}document.getElementById("ok").style.display="block"});
+
+function setLang(l){lang=l;document.documentElement.lang=l==="pt"?"pt-BR":"en";
+  document.querySelectorAll("[data-i]").forEach(function(e){var k=e.dataset.i;e.innerHTML=l==="en"&&EN[k]!=null?EN[k]:PT[k]});
+  msg.placeholder=l==="en"?EN.ph:phPT;rng.setAttribute("aria-label",l==="en"?"Support amount":"Valor do apoio");
+  document.querySelectorAll(".lang button").forEach(function(b){b.classList.toggle("on",b.dataset.l===l)});
+  try{localStorage.setItem("lang",l)}catch(e){}render()}
+document.querySelectorAll(".lang button").forEach(function(b){b.addEventListener("click",function(){setLang(b.dataset.l)})});
+var saved=null;try{saved=localStorage.getItem("lang")}catch(e){}
+setLang(saved||((navigator.language||"pt").toLowerCase().indexOf("pt")===0?"pt":"en"));
+document.getElementById("y").textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rising Tales — Me compre um café ☕ | Buy me a coffee</title>
+<meta name="description" content="Rising Tales: RPG narrativo online feito por um dev indie brasileiro. Apoie com um café via Pix.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07070f;--panel:#10111f;--line:#25273f;--txt:#e9e9f4;--mut:#a3a5c2;--ice:#7fe3ff;--neon:#b26bff;--gold:#e0a85a;--gold2:#ffb347;--void:#39ff9f;--coffee:#9a5a2c}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(60vw 50vh at 15% 0%,#3b1d6e55,transparent 70%),radial-gradient(50vw 50vh at 100% 30%,#0d4b6b44,transparent 70%),radial-gradient(40vw 40vh at 50% 100%,#6b3b0d33,transparent 70%)}
+a{color:var(--ice)}
+h1,h2,h3{font-family:Cinzel,serif;letter-spacing:.03em;line-height:1.2}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:10;background:#07070fcc;backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:16px}
+nav b{font-family:Cinzel,serif;color:var(--gold2);white-space:nowrap}
+nav ul{display:flex;gap:18px;list-style:none}
+nav a{color:var(--mut);text-decoration:none;font-size:.92rem;white-space:nowrap}
+nav a:hover{color:var(--txt)}
+.right{display:flex;gap:10px;align-items:center}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.lang button{background:none;border:0;color:var(--mut);padding:6px 10px;font:600 .8rem Inter,sans-serif;cursor:pointer}
+.lang button.on{background:var(--gold);color:#1a0d00}
+.cta{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg,var(--gold2),#ff7a3d);color:#1a0d00;font-weight:700;padding:12px 22px;border-radius:999px;text-decoration:none;border:0;cursor:pointer;font-size:1rem;transition:transform .15s,box-shadow .15s}
+.cta:hover{transform:translateY(-2px);box-shadow:0 8px 30px #ffb34755}
+.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+.ghost:hover{box-shadow:none;border-color:var(--ice)}
+header{text-align:center;padding:100px 0 80px}
+.tag{display:inline-block;font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ice);border:1px solid #7fe3ff44;padding:6px 14px;border-radius:999px;margin-bottom:24px}
+header h1{font-size:clamp(2.6rem,8vw,5.4rem);background:linear-gradient(120deg,var(--ice),var(--neon) 50%,var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent}
+header h1 small{display:block;font-size:.34em;color:var(--mut);-webkit-text-fill-color:var(--mut);margin-top:10px;letter-spacing:.12em}
+header p{max-width:640px;margin:26px auto 34px;color:var(--mut);font-size:1.1rem}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+section{padding:80px 0;border-top:1px solid var(--line)}
+section h2{font-size:clamp(1.8rem,4vw,2.5rem);margin-bottom:14px}
+.lead{color:var(--mut);max-width:720px;margin-bottom:40px;font-size:1.05rem}
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:26px;position:relative;overflow:hidden}
+.card h3{font-size:1.3rem;margin-bottom:4px}
+.card .sub{font-size:.85rem;color:var(--mut);margin-bottom:14px}
+.card ul{list-style:none;font-size:.95rem;color:#cfd0e6}
+.card li{padding:3px 0}
+.card:before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--c)}
+.dots{display:flex;gap:6px;margin-top:16px}.dots i{width:18px;height:18px;border-radius:50%;border:1px solid #fff3}
+.arc{--c:linear-gradient(90deg,#6b6b6b,#4b5320,#c0392b)}
+.bel{--c:linear-gradient(90deg,#ff8c1a,#ffd700,#3d7bff)}
+.pri{--c:linear-gradient(90deg,#9fe9ff,#00e5ff,#a259ff)}
+.voidc{--c:linear-gradient(90deg,#39ff9f,#b026ff,#e01b24);background:linear-gradient(160deg,#141026,#0a0a12)}
+.weap{display:flex;flex-wrap:wrap;gap:10px}
+.weap span{background:#ffffff08;border:1px solid var(--line);padding:8px 14px;border-radius:999px;font-size:.92rem}
+.games .card{display:flex;flex-direction:column;gap:6px}
+.games .price{margin-left:auto;font-weight:700;color:var(--gold2);font-size:.9rem}
+.games .row{display:flex;align-items:center;gap:8px}
+.games .g{font-size:.8rem;color:var(--mut)}
+.games a.play{margin-top:auto;padding-top:10px;font-weight:600;text-decoration:none}
+.feat{border-color:#b26bff66;box-shadow:0 0 40px #b26bff22}
+
+/* ===== Apoio / café ===== */
+#cafe{background:linear-gradient(180deg,transparent,#1a120533)}
+.support{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:48px;align-items:start}
+.kicker{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:12px}
+section.hero{border-top:0;padding:56px 0 80px}
+.ttl{font-size:clamp(2.4rem,6vw,4rem);margin-bottom:20px}
+.ttl em{font-style:normal;color:var(--gold);text-shadow:0 0 40px #e0a85a55}
+.perks{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:30px}
+.perks div{padding:16px 18px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#0d0e1a}
+.perks div:nth-child(3n){border-right:0}
+.perks div:nth-last-child(-n+3){border-bottom:0}
+.perks b{display:block;font-family:Cinzel,serif;font-size:1.5rem}
+.perks small{color:var(--mut);font-size:.85rem}
+.box{background:#0f101c;border:1px solid var(--line);border-radius:14px;padding:26px;position:sticky;top:80px;box-shadow:0 20px 60px #0008}
+.box h3{font-size:1.25rem;margin-bottom:8px}
+.box .hint{color:var(--mut);font-size:.92rem;margin-bottom:18px}
+.cups{display:flex;justify-content:space-between;gap:6px;margin-bottom:8px}
+.cup{width:15%;max-width:54px;cursor:pointer}
+.cup svg{width:100%;height:auto;display:block;overflow:visible}
+.cup .liq{transition:height .25s ease,y .25s ease}
+.cup .steam{opacity:0;transition:opacity .3s}
+.cup.full .steam{opacity:1;animation:steam 2.4s ease-in-out infinite}
+@keyframes steam{0%,100%{transform:translateY(0);opacity:.9}50%{transform:translateY(-3px);opacity:.4}}
+.amount{font-family:Cinzel,serif;font-size:clamp(2.4rem,6vw,3.2rem);color:var(--gold);line-height:1.1;margin-top:6px}
+.caption{font-weight:600;margin-bottom:16px;min-height:1.6em}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:10px;border-radius:999px;background:linear-gradient(90deg,var(--gold) var(--p,30%),#2a2b3d var(--p,30%));outline:none;margin:6px 0 18px}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:28px;height:28px;border-radius:50%;background:#f3e6d0;border:4px solid var(--gold);cursor:grab;box-shadow:0 2px 10px #0008}
+input[type=range]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:#f3e6d0;border:4px solid var(--gold);cursor:grab}
+label{display:block;font-size:.88rem;color:var(--mut);margin-bottom:6px}
+label span{opacity:.7}
+.field{width:100%;background:#07070f;border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:11px 12px;font:inherit;margin-bottom:6px}
+.field:focus{outline:none;border-color:var(--gold)}
+textarea.field{resize:vertical;min-height:70px}
+.count{text-align:right;font-size:.75rem;color:var(--mut);margin-bottom:14px}
+.row2{display:flex;gap:10px;align-items:center;margin-bottom:14px}
+.row2 .field{margin:0}
+.row2 .pre{color:var(--mut);font-weight:700}
+.go{width:100%;border-radius:8px;letter-spacing:.06em;text-transform:uppercase;font-size:.95rem;padding:15px;background:var(--gold)}
+.fine{font-size:.8rem;color:var(--mut);margin-top:12px}
+.pay{display:none;margin-top:20px;padding-top:20px;border-top:1px dashed var(--line);text-align:center}
+.pay.show{display:block;animation:pop .3s ease}
+@keyframes pop{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.qr{width:100%;max-width:240px;margin:0 auto 14px;background:#fff;border-radius:12px;padding:10px}
+.qr svg{display:block;width:100%;height:auto}
+.code{width:100%;font-family:ui-monospace,monospace;font-size:.72rem;background:#05050a;color:var(--mut);border:1px solid var(--line);border-radius:8px;padding:10px;resize:none;height:70px;margin-bottom:12px}
+.ok{display:none;color:var(--void);font-size:.9rem;margin-top:10px}
+.thanks{font-size:.95rem;margin-bottom:12px}
+.links{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+footer{border-top:1px solid var(--line);padding:40px 0;text-align:center;color:var(--mut);font-size:.9rem}
+@media(max-width:520px){.right .cta{display:none}}
+@media(max-width:860px){.support{grid-template-columns:1fr;gap:32px}.box{position:static;order:-1}section.hero{padding-top:24px}nav ul{display:none}header{padding:70px 0 60px}.perks{grid-template-columns:repeat(2,1fr)}.perks div{border-right:1px solid var(--line)!important;border-bottom:1px solid var(--line)!important}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>⚔ Rising Tales</b>
 <ul><li><a href="#sobre" data-i="nav1">Sobre</a></li><li><a href="#lore">Lore</a></li><li><a href="#racas" data-i="nav3">Raças</a></li><li><a href="#jogos" data-i="nav4">Jogos</a></li></ul>
 <div class="right"><div class="lang" role="group" aria-label="Idioma / Language"><button type="button" data-l="pt" class="on">PT</button><button type="button" data-l="en">EN</button></div>
 <a class="cta" href="#cafe" style="padding:8px 16px;font-size:.9rem" data-i="navcta">☕ Me compre um café</a></div></div></nav>
